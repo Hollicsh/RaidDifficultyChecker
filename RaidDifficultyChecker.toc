@@ -3,6 +3,7 @@
 ## Author: Zehel Fenris
 ## Version: @project-version@
 ## Notes: Displays a popup with the current raid difficulty upon entering a raid.
+## Notes-ruRU: Отображает всплывающее окно с текущей сложностью при входе в рейд
 ## x-Curse-Project-ID: 1184600
 # Your addon files
 Localization.lua
