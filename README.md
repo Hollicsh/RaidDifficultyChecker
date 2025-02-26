@@ -25,8 +25,6 @@ If you want to have localization in your language then post a comment with the t
 "Timewalking" = "Timewalking"
 "Unknown" = "Unknown"
 
-
-
 Error Handling:
 If the instance size or difficulty cannot be determined, it defaults to "Unknown".
 
