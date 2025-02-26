@@ -1,0 +1,8 @@
+## Interface: 110007
+## Title: Raid Difficulty checker
+## Author: Zehel Fenris
+## Version: 1.0.1
+## Notes: Displays a popup with the current raid difficulty upon entering a raid.
+# Your addon files
+Localization.lua
+RaidDifficultyChecker.lua
