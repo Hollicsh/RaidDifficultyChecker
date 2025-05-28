@@ -1,9 +1,10 @@
 ## Interface: 110105, 110107
 ## Title: Raid Difficulty checker
+## Title-ruRU: Проверка сложности рейда
 ## Author: Zehel Fenris
 ## Version: @project-version@
 ## Notes: Displays a popup with the current raid difficulty upon entering a raid.
-## Notes-ruRU: Отображает всплывающее окно с текущей сложностью при входе в рейд
+## Notes-ruRU: Отображает всплывающее окно с текущей сложностью рейда при входе в него.
 ## x-Curse-Project-ID: 1184600
 # Your addon files
 Localization.lua
