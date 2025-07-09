@@ -2,22 +2,6 @@ local addonName, addonTable = ...
 local L = {}
 addonTable.Localization = L
 
-if GetLocale() == "enUS" then
-    L["You have entered"]           = "You have entered"
-    L["Current loot spec:"]         = "Current loot spec:"
-    L["10-Man"]                     = "10-Man Normal"
-    L["25-Man"]                     = "25-Man Normal"
-    L["10-Man Heroic"]              = "10-Man Heroic"
-    L["25-Man Heroic"]              = "25-Man Heroic"
-    L["40-Man"]                     = "40-Man"
-    L["Looking for Raid"]           = "Looking for Raid"
-    L["Normal"]                     = "Normal"
-    L["Heroic"]                     = "Heroic"
-    L["Mythic"]                     = "Mythic"
-    L["Timewalking"]                = "Timewalking"
-    L["Unknown"]                    = "Unknown"
-end
-
 if GetLocale() == "ruRU" then
     L["You have entered"]           = "Вы вошли"
     L["Current loot spec:"]         = "Добыча для специализации:"
@@ -32,9 +16,7 @@ if GetLocale() == "ruRU" then
     L["Mythic"]                     = "Эпохальный"
     L["Timewalking"]                = "Путешествие во времени"
     L["Unknown"]                    = "Неизвестно"
-end
-
-if GetLocale() == "zhCN" then
+elseif GetLocale() == "zhCN" then
     L["You have entered"]           = "你已经进入"
     L["Current loot spec:"]         = "当前拾取专精："
     L["10-Man"]                     = "10人普通"
@@ -48,9 +30,7 @@ if GetLocale() == "zhCN" then
     L["Mythic"]                     = "史诗"
     L["Timewalking"]                = "时空漫游"
     L["Unknown"]                    = "未知"
-end
-
-if GetLocale() == "zhTW" then
+elseif GetLocale() == "zhTW" then
     L["You have entered"]           = "你已經進入"
     L["Current loot spec:"]         = "目前拾取專精："
     L["10-Man"]                     = "10人普通"
@@ -64,4 +44,32 @@ if GetLocale() == "zhTW" then
     L["Mythic"]                     = "傳奇"
     L["Timewalking"]                = "時光漫遊"
     L["Unknown"]                    = "未知"
+elseif GetLocale() == "frFR" then
+    L["You have entered"]           = "Vous êtes entrés dans"
+    L["Current loot spec:"]         = "Spécialisation de butin:"
+    L["10-Man"]                     = "10 joueurs (normal)"
+    L["25-Man"]                     = "25 joueurs (normal)"
+    L["10-Man Heroic"]              = "10 joueurs (héroïque)"
+    L["25-Man Heroic"]              = "25 joueurs (héroïque)"
+    L["40-Man"]                     = "40 joueurs"
+    L["Looking for Raid"]           = "Recherche de groupe"
+    L["Normal"]                     = "Normal"
+    L["Heroic"]                     = "Héroïque"
+    L["Mythic"]                     = "Mythique"
+    L["Timewalking"]                = "Marcheurs du temps"
+    L["Unknown"]                    = "Inconnu"
+else
+    L["You have entered"]           = "You have entered"
+    L["Current loot spec:"]         = "Current loot spec:"
+    L["10-Man"]                     = "10-Man Normal"
+    L["25-Man"]                     = "25-Man Normal"
+    L["10-Man Heroic"]              = "10-Man Heroic"
+    L["25-Man Heroic"]              = "25-Man Heroic"
+    L["40-Man"]                     = "40-Man"
+    L["Looking for Raid"]           = "Looking for Raid"
+    L["Normal"]                     = "Normal"
+    L["Heroic"]                     = "Heroic"
+    L["Mythic"]                     = "Mythic"
+    L["Timewalking"]                = "Timewalking"
+    L["Unknown"]                    = "Unknown"
 end
