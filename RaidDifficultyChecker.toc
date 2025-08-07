@@ -1,4 +1,4 @@
-## Interface: 110105, 110107
+## Interface: 110200
 ## Title: Raid Difficulty checker
 ## Title-ruRU: Проверка сложности рейда
 ## Author: Zehel Fenris
